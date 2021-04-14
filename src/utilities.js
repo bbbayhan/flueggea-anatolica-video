@@ -7,21 +7,21 @@ export const drawMesh = (predictions, ctx) => {
             const keypointsLeftEyeLower = prediction.annotations.leftEyeLower3;
             const keypointsLeftEyeUpper = prediction.annotations.leftEyeUpper1;
             const keypointsRightEyeUpper = prediction.annotations.rightEyeUpper1;
-            const imageWidth = keypointsLeftEyeLower[0][0] - keypointsLeftEyeLower[keypointsLeftEyeLower.length-1][0];
+            const imageWidth = keypointsLeftEyeLower[0][0] - keypointsLeftEyeLower[keypointsLeftEyeLower.length-1][0] +10;
             const imageHeight = keypointsLeftEyeLower[0][1] - keypointsLeftEyeUpper[keypointsLeftEyeUpper.length-1][1];
           
 
 
             plantImage.onload = function(){
                     const xUpperLEFT = keypointsLeftEyeUpper[5][0];
-                    const yUpperLEFT = keypointsLeftEyeUpper[5][1];
+                    const yUpperLEFT = keypointsLeftEyeUpper[5][1]-20;
                     const xUpperRIGHT = keypointsRightEyeUpper[0][0];
-                    const yUpperRIGHT = keypointsRightEyeUpper[0][1];
+                    const yUpperRIGHT = keypointsRightEyeUpper[0][1]-20;
 
                     
                     ctx.beginPath();
-                    ctx.drawImage(plantImage,xUpperLEFT,yUpperLEFT,imageWidth,3*imageHeight);
-                    ctx.drawImage(plantImage,xUpperRIGHT,yUpperRIGHT,imageWidth,3*imageHeight);
+                    ctx.drawImage(plantImage,xUpperLEFT,yUpperLEFT,imageWidth,4*imageHeight);
+                    ctx.drawImage(plantImage,xUpperRIGHT,yUpperRIGHT,imageWidth,4*imageHeight);
                     ctx.closePath();
                     ctx.fill();
                     ctx.stroke();

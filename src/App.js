@@ -2,6 +2,7 @@ import React, {useRef} from 'react';
 import './App.css';
 import * as tf from '@tensorflow/tfjs';
 import * as facemesh from '@tensorflow-models/facemesh';
+import * as handpose from '@tensorflow-models/handpose';
 import Webcam from 'react-webcam';
 import {drawMesh} from './utilities';
 
@@ -9,6 +10,7 @@ function App() {
 
   const webcamRef = useRef(null);
   const canvasRef =useRef(null);
+
 
   const runFacemesh = async () =>{
     const net = await facemesh.load({
@@ -31,8 +33,11 @@ function App() {
       canvasRef.current.width= videoWidth;
       canvasRef.current.height= videoHeight;
       
+      
       const face = await net.estimateFaces(video);
-      console.log(face);
+      // const model = await handpose.load();
+      // const predictions = await model.estimateHands(video);
+      // console.log(predictions);
 
       const ctx = canvasRef.current.getContext("2d");
       drawMesh(face,ctx);
