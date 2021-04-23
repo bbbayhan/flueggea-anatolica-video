@@ -5,23 +5,23 @@ export const drawMesh = (predictions, ctx) => {
         predictions.forEach((prediction) =>{
             const plantImage= new Image();
             const keypointsLeftEyeLower = prediction.annotations.leftEyeLower3;
-            const keypointsLeftEyeUpper = prediction.annotations.leftEyeUpper1;
-            const keypointsRightEyeUpper = prediction.annotations.rightEyeUpper1;
+            const keypointsLeftEyeBrowUpper = prediction.annotations.leftEyebrowUpper;
+            const keypointsRightEyeUpper = prediction.annotations.rightEyebrowUpper;
             const imageWidth = keypointsLeftEyeLower[0][0] - keypointsLeftEyeLower[keypointsLeftEyeLower.length-1][0];
-            const imageHeight = keypointsLeftEyeLower[0][1] - keypointsLeftEyeUpper[keypointsLeftEyeUpper.length-1][1];
+            const imageHeight = keypointsLeftEyeLower[0][1] - keypointsLeftEyeBrowUpper[keypointsLeftEyeBrowUpper.length-1][1];
           
 
 
             plantImage.onload = function(){
-                    const xUpperLEFT = keypointsLeftEyeUpper[5][0];
-                    const yUpperLEFT = keypointsLeftEyeUpper[5][1];
+                    const xUpperLEFT = keypointsLeftEyeBrowUpper[5][0];
+                    const yUpperLEFT = keypointsLeftEyeBrowUpper[5][1];
                     const xUpperRIGHT = keypointsRightEyeUpper[0][0];
-                    const yUpperRIGHT = keypointsRightEyeUpper[0][1];
+                    const yUpperRIGHT = keypointsLeftEyeBrowUpper[5][1];
 
                     
                     ctx.beginPath();
-                    ctx.drawImage(plantImage,xUpperLEFT,yUpperLEFT,imageWidth,3*imageHeight);
-                    ctx.drawImage(plantImage,xUpperRIGHT,yUpperRIGHT,imageWidth,3*imageHeight);
+                    ctx.drawImage(plantImage,xUpperLEFT,yUpperLEFT,imageWidth,4*imageHeight);
+                    ctx.drawImage(plantImage,xUpperRIGHT,yUpperRIGHT,imageWidth,4*imageHeight);
                     ctx.closePath();
                     ctx.fill();
                     ctx.stroke();

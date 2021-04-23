@@ -52,8 +52,8 @@ function App() {
         right:0,
         textAlign:"center",
         zIndex:9,
-        width: 640,
-        height:480
+        width: "100%",
+        height:"100%"
       }
     }/>
     <canvas ref={canvasRef}
@@ -65,8 +65,8 @@ function App() {
         right:0,
         textAlign:"center",
         zIndex:9,
-        width: 640,
-        height:480
+        width: "100%",
+        height:"100%"
     }}/> 
     </header>  
     </div>
