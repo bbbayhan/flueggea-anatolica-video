@@ -18,13 +18,15 @@ export const drawMesh = (predictions, ctx) => {
                     const xUpperRIGHT = keypointsRightEyeUpper[0][0];
                     const yUpperRIGHT = keypointsLeftEyeBrowUpper[5][1];
 
+                    if(ctx){
+                        ctx.beginPath();
+                        ctx.drawImage(plantImage,xUpperLEFT,yUpperLEFT,imageWidth,4*imageHeight);
+                        ctx.drawImage(plantImage,xUpperRIGHT,yUpperRIGHT,imageWidth,4*imageHeight);
+                        ctx.closePath();
+                        ctx.fill();
+                        ctx.stroke();
+                    }
                     
-                    ctx.beginPath();
-                    ctx.drawImage(plantImage,xUpperLEFT,yUpperLEFT,imageWidth,4*imageHeight);
-                    ctx.drawImage(plantImage,xUpperRIGHT,yUpperRIGHT,imageWidth,4*imageHeight);
-                    ctx.closePath();
-                    ctx.fill();
-                    ctx.stroke();
                     
                 //}
             } 
