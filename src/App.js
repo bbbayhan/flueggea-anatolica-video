@@ -5,6 +5,8 @@ import * as tf from '@tensorflow/tfjs';
 import * as facemesh from '@tensorflow-models/facemesh';
 import EyeDetection from './EyeDetection';
 import TurkeyMap from './Map';
+import {Flueggea} from './Flueggea';
+
 
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
         <Switch>
             <Route exact path="/" render={()=> (<EyeDetection/>)}/>
             <Route path="/turkey" render={() => (<TurkeyMap/>)}/>
+            <Route path="/video" render={() => (<Flueggea/>)}/>
           </Switch>
       </BrowserRouter>
   );
