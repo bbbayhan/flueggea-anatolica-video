@@ -9,14 +9,12 @@ import TurkeyMap from './Map';
 function App() {
 
   return (
-    <div className="App">
       <BrowserRouter>
         <Switch>
             <Route exact path="/" render={()=> (<EyeDetection/>)}/>
             <Route path="/turkey" render={() => (<TurkeyMap/>)}/>
           </Switch>
       </BrowserRouter>
-    </div>
   );
 }
 

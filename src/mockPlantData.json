@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Flueggea Anatolica",
+    "city": "Mersin",
+    "geoLocation": [34.6292679, 36.8117583]
+  },
+  {
+    "name": "Campanula Troegerae",
+    "city": "Artvin",
+    "geoLocation": [41.82, 41.18]
+  },
+  {
+    "name": "Galanthus Trojanus",
+    "city": "Çanakkale",
+    "geoLocation": [26.408587, 40.14672]
+  },
+  {
+    "name": "Lathyrus Belinensis",
+    "city": "Antalya",
+    "geoLocation": [30.704044, 36.884804]
+  }
+]
