@@ -1,13 +1,22 @@
 import React, {useState} from "react";
 import {IMAGE_SRC} from "./plantImages/MapNameToImage";
-import { Link } from "react-router-dom";
+import Youtube from 'react-youtube';
 
 export const Plant = ({data}) => {
   const [open, setOpen] = useState(false);
+  const opts = {
+    height: '100%',
+    width: '100%',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+
 
   return open ? (
       <>
-       <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kqUQn2igu6A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <Youtube videoId="kqUQn2igu6A" opts={opts}/>
        </>
     )
       :

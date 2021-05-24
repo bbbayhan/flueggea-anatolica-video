@@ -15,8 +15,38 @@
     "geoLocation": [26.408587, 40.14672]
   },
   {
-    "name": "Lathyrus Belinensis",
+    "name": "Lathyrus",
     "city": "Antalya",
     "geoLocation": [30.704044, 36.884804]
+  },
+  {
+    "name": "Lathyrus1",
+    "city": "Antalya",
+    "geoLocation": [34.6292679, 38.8117583]
+  },
+  {
+    "name": "Lathyrus2",
+    "city": "Antalya",
+    "geoLocation": [40.408587, 40.14672]
+  },
+  {
+    "name": "Lathyrus3",
+    "city": "Antalya",
+    "geoLocation": [27.408587, 40.14672]
+  },
+  {
+    "name": "Lathyrus4",
+    "city": "Antalya",
+    "geoLocation": [32.704044, 36.884804]
+  },
+  {
+    "name": "Lathyrus5",
+    "city": "Antalya",
+    "geoLocation": [39.704044, 39.884804]
+  },
+  {
+    "name": "Lathyrus6",
+    "city": "Antalya",
+    "geoLocation": [37.91, 37.54]
   }
 ]
