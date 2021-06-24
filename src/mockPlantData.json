@@ -1,52 +1,74 @@
 [
   {
     "name": "Flueggea Anatolica",
+    "year": 2021,
     "city": "Mersin",
-    "geoLocation": [34.6292679, 36.8117583]
+    "geoLocation": [34.6292679, 36.8117583],
+    "iucnDegree": "EN",
+    "reason": "Construcción de caminos"
   },
   {
-    "name": "Campanula Troegerae",
-    "city": "Artvin",
-    "geoLocation": [41.82, 41.18]
+    "name": "Lathyrus Trachycarpus",
+    "year": 2020,
+    "city": "El río Dicle",
+    "geoLocation": [40.2172, 37.9136],
+    "iucnDegree": "EN",
+    "reason": "Cambio climático"
   },
   {
-    "name": "Galanthus Trojanus",
-    "city": "Çanakkale",
-    "geoLocation": [26.408587, 40.14672]
+    "name": "Centaurea Rhizocalathium",
+    "year": 2019,
+    "city": "Rize",
+    "geoLocation": [40.517666, 41.025513],
+    "iucnDegree": "EN",
+    "reason": "Centrales hidroeléctricas"
   },
   {
-    "name": "Lathyrus",
-    "city": "Antalya",
-    "geoLocation": [30.704044, 36.884804]
+    "name": "Gentiana Lutea",
+    "year": 2018,
+    "city": "Bursa",
+    "geoLocation": [29.0601, 40.1956],
+    "iucnDegree": "LC",
+    "reason": "Exportación irresponsable"
   },
   {
-    "name": "Lathyrus1",
-    "city": "Antalya",
-    "geoLocation": [34.6292679, 38.8117583]
+    "name": "Anemone Blanda",
+    "year": 2017,
+    "city": "El río Meriç",
+    "geoLocation": [26.583481, 41.674965],
+    "iucnDegree": "LC",
+    "reason": "Espionaje"
   },
   {
-    "name": "Lathyrus2",
-    "city": "Antalya",
-    "geoLocation": [40.408587, 40.14672]
+    "name": "Centaureas Davisii",
+    "year": 2016,
+    "city": "La montaña Cudi",
+    "geoLocation": [42.4833314, 37.2666656],
+    "iucnDegree": "EN",
+    "reason": "Incendios"
   },
   {
-    "name": "Lathyrus3",
-    "city": "Antalya",
-    "geoLocation": [27.408587, 40.14672]
+    "name": "Campanula Aghrica",
+    "year": 2015,
+    "city": "Doğubayazıt",
+    "geoLocation": [44.0842, 39.5469],
+    "iucnDegree": "CR",
+    "reason": "Sequía"
   },
   {
-    "name": "Lathyrus4",
-    "city": "Antalya",
-    "geoLocation": [32.704044, 36.884804]
+    "name": "Centaurea Tchihatcheffii",
+    "year": 2014,
+    "city": "Ankara",
+    "geoLocation": [32.866287, 39.925533],
+    "iucnDegree": "CR",
+    "reason": "Degradación del hábitat"
   },
   {
-    "name": "Lathyrus5",
-    "city": "Antalya",
-    "geoLocation": [39.704044, 39.884804]
-  },
-  {
-    "name": "Lathyrus6",
-    "city": "Antalya",
-    "geoLocation": [37.91, 37.54]
+    "name": "Lathyrus Undulatos",
+    "year": 2013,
+    "city": "İstanbul",
+    "geoLocation": [28.97953, 41.015137],
+    "iucnDegree": "EN",
+    "reason": "Urbanización"
   }
 ]
