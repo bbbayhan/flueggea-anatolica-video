@@ -1,4 +1,9 @@
-import plantImageSrc from './Waterwheel.jpg';
+import {IMAGE_SRC} from './plantImages/MapNameToImage';
+
+export const displayRandomImage = () => {
+    const imageIndex = Math.floor(Math.random()*9);
+    return Object.values(IMAGE_SRC)[imageIndex];
+}
 
 export const drawMesh = (predictions, ctx) => {
     if(predictions.length > 0){
@@ -10,7 +15,7 @@ export const drawMesh = (predictions, ctx) => {
             const imageWidth = keypointsLeftEyeLower[0][0] - keypointsLeftEyeLower[keypointsLeftEyeLower.length-1][0];
             const imageHeight = keypointsLeftEyeLower[0][1] - keypointsLeftEyeBrowUpper[keypointsLeftEyeBrowUpper.length-1][1];
           
-
+            let plantImageSrc = displayRandomImage();
 
             plantImage.onload = function(){
                     const xUpperLEFT = keypointsLeftEyeBrowUpper[5][0];

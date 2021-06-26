@@ -8,6 +8,7 @@ import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
 import { red } from "@material-ui/core/colors";
 import ErrorIcon from "@material-ui/icons/Error";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles((theme) => ({
   red: {
@@ -56,7 +57,9 @@ export const Plant = ({ data }) => {
           >
             {data.city}
           </span>
-          <AddLocation style={{ color: "#7A1DC9" }} />
+          <Tooltip title="Locación" arrow>
+            <AddLocation style={{ color: "#7A1DC9" }} />
+          </Tooltip>
         </div>
         <div
           style={{
@@ -74,7 +77,9 @@ export const Plant = ({ data }) => {
           >
             {data.name}
           </p>
-          <Avatar className={classes.red}>{data.iucnDegree}</Avatar>
+          <Tooltip title="Categoría de UICN" arrow>
+            <Avatar className={classes.red}>{data.iucnDegree}</Avatar>
+          </Tooltip>
         </div>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <span
@@ -88,7 +93,13 @@ export const Plant = ({ data }) => {
           </span>
           <CalendarTodayIcon fontSize="small" style={{ color: "#7A1DC9" }} />
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between", marginTop:'0.5rem' }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginTop: "0.5rem",
+          }}
+        >
           <span
             style={{
               fontFamily: "Avenir",
@@ -98,7 +109,9 @@ export const Plant = ({ data }) => {
           >
             {data.reason}
           </span>
-          <ErrorIcon fontSize="small" style={{ color: "#7A1DC9" }} />
+          <Tooltip title="Razon de extinción" arrow>
+            <ErrorIcon fontSize="small" style={{ color: "#7A1DC9" }} />
+          </Tooltip>
         </div>
 
         <div style={{ display: "flex", justifyContent: "center" }}>
