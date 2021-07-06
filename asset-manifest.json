@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/flueggea-anatolica-video/static/css/main.c9467f40.chunk.css",
+    "main.js": "/flueggea-anatolica-video/static/js/main.601aa782.chunk.js",
+    "main.js.map": "/flueggea-anatolica-video/static/js/main.601aa782.chunk.js.map",
+    "runtime-main.js": "/flueggea-anatolica-video/static/js/runtime-main.696759f7.js",
+    "runtime-main.js.map": "/flueggea-anatolica-video/static/js/runtime-main.696759f7.js.map",
+    "static/css/2.14a8a30d.chunk.css": "/flueggea-anatolica-video/static/css/2.14a8a30d.chunk.css",
+    "static/js/2.1bb02fc1.chunk.js": "/flueggea-anatolica-video/static/js/2.1bb02fc1.chunk.js",
+    "static/js/2.1bb02fc1.chunk.js.map": "/flueggea-anatolica-video/static/js/2.1bb02fc1.chunk.js.map",
+    "static/js/3.8a5781d2.chunk.js": "/flueggea-anatolica-video/static/js/3.8a5781d2.chunk.js",
+    "static/js/3.8a5781d2.chunk.js.map": "/flueggea-anatolica-video/static/js/3.8a5781d2.chunk.js.map",
+    "index.html": "/flueggea-anatolica-video/index.html",
+    "static/css/2.14a8a30d.chunk.css.map": "/flueggea-anatolica-video/static/css/2.14a8a30d.chunk.css.map",
+    "static/css/main.c9467f40.chunk.css.map": "/flueggea-anatolica-video/static/css/main.c9467f40.chunk.css.map",
+    "static/js/2.1bb02fc1.chunk.js.LICENSE.txt": "/flueggea-anatolica-video/static/js/2.1bb02fc1.chunk.js.LICENSE.txt",
+    "static/media/AnemoneBlanda.19a0d8b8.jpeg": "/flueggea-anatolica-video/static/media/AnemoneBlanda.19a0d8b8.jpeg",
+    "static/media/CampanulaAghrica.197ad8b7.jpg": "/flueggea-anatolica-video/static/media/CampanulaAghrica.197ad8b7.jpg",
+    "static/media/CentaureaRhizocalathium.26e865d5.jpeg": "/flueggea-anatolica-video/static/media/CentaureaRhizocalathium.26e865d5.jpeg",
+    "static/media/CentaureaTchihatcheffii.f066e066.jpeg": "/flueggea-anatolica-video/static/media/CentaureaTchihatcheffii.f066e066.jpeg",
+    "static/media/CentaureasDavisii.a4a1e4d6.jpeg": "/flueggea-anatolica-video/static/media/CentaureasDavisii.a4a1e4d6.jpeg",
+    "static/media/FlueggeaAnatolica.c6a478ff.jpeg": "/flueggea-anatolica-video/static/media/FlueggeaAnatolica.c6a478ff.jpeg",
+    "static/media/GentianaLutea2.9c23cb80.png": "/flueggea-anatolica-video/static/media/GentianaLutea2.9c23cb80.png",
+    "static/media/LathyrusTrachycarpus.31823c60.jpeg": "/flueggea-anatolica-video/static/media/LathyrusTrachycarpus.31823c60.jpeg",
+    "static/media/LathyrusUndulatos.3e8cff37.jpeg": "/flueggea-anatolica-video/static/media/LathyrusUndulatos.3e8cff37.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.696759f7.js",
+    "static/css/2.14a8a30d.chunk.css",
+    "static/js/2.1bb02fc1.chunk.js",
+    "static/css/main.c9467f40.chunk.css",
+    "static/js/main.601aa782.chunk.js"
+  ]
+}
