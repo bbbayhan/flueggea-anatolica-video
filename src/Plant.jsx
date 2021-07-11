@@ -41,7 +41,7 @@ export const Plant = ({ data }) => {
 
   return open ? (
     <>
-      <Youtube videoId="kqUQn2igu6A" opts={opts} />
+      <Youtube videoId={data.videoId} opts={opts} />
     </>
   ) : (
     <>

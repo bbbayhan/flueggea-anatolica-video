@@ -5,7 +5,8 @@
     "city": "Mersin",
     "geoLocation": [34.6292679, 36.8117583],
     "iucnDegree": "EN",
-    "reason": "Construcción de caminos"
+    "reason": "Construcción de caminos",
+    "videoId": "3y9X_-X2DSw"
   },
   {
     "name": "Lathyrus Trachycarpus",
@@ -13,7 +14,8 @@
     "city": "El río Dicle",
     "geoLocation": [40.2172, 37.9136],
     "iucnDegree": "EN",
-    "reason": "Cambio climático"
+    "reason": "Cambio climático",
+    "videoId": "1JKvLS-QZg8"
   },
   {
     "name": "Centaurea Rhizocalathium",
@@ -21,7 +23,8 @@
     "city": "Rize",
     "geoLocation": [40.517666, 41.025513],
     "iucnDegree": "EN",
-    "reason": "Centrales hidroeléctricas"
+    "reason": "Centrales hidroeléctricas",
+    "videoId": "tKMmie1JZ-Q"
   },
   {
     "name": "Gentiana Lutea",
@@ -29,7 +32,8 @@
     "city": "Bursa",
     "geoLocation": [29.0601, 40.1956],
     "iucnDegree": "LC",
-    "reason": "Exportación irresponsable"
+    "reason": "Exportación irresponsable",
+    "videoId": "X4Q1Yr1iKE4"
   },
   {
     "name": "Anemone Blanda",
@@ -37,7 +41,8 @@
     "city": "El río Meriç",
     "geoLocation": [26.583481, 41.674965],
     "iucnDegree": "LC",
-    "reason": "Espionaje"
+    "reason": "Espionaje",
+    "videoId": "xD7ci6J__L4"
   },
   {
     "name": "Centaureas Davisii",
@@ -45,7 +50,8 @@
     "city": "La montaña Cudi",
     "geoLocation": [42.4833314, 37.2666656],
     "iucnDegree": "EN",
-    "reason": "Incendios"
+    "reason": "Incendios",
+    "videoId": "qmVhZc_eqf8"
   },
   {
     "name": "Campanula Aghrica",
@@ -53,7 +59,9 @@
     "city": "Doğubayazıt",
     "geoLocation": [44.0842, 39.5469],
     "iucnDegree": "CR",
-    "reason": "Sequía"
+    "reason": "Sequía",
+    "videoId": "to80gqslieA"
+
   },
   {
     "name": "Centaurea Tchihatcheffii",
@@ -61,7 +69,9 @@
     "city": "Ankara",
     "geoLocation": [32.866287, 39.925533],
     "iucnDegree": "CR",
-    "reason": "Degradación del hábitat"
+    "reason": "Degradación del hábitat",
+    "videoId": "ceUq8e1pdNs"
+
   },
   {
     "name": "Lathyrus Undulatos",
@@ -69,6 +79,7 @@
     "city": "İstanbul",
     "geoLocation": [28.97953, 41.015137],
     "iucnDegree": "EN",
-    "reason": "Urbanización"
+    "reason": "Urbanización",
+    "videoId": "eJYEHLkU2iU"
   }
 ]
